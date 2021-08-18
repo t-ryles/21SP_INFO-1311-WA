@@ -1,0 +1,86 @@
+/* Taj-Hakeem Ryles
+    mucis.HTML
+    NFO 1311 WA
+    olberding
+    April 21, 2021
+*/
+body {
+    background: #14274e;
+}
+
+#container {
+    box-shadow: 3px 3px 2px #686d76;
+    ;
+}
+
+#container, footer {
+    background-color: #f1f6f9;
+    font-family: 'Heebo', sans-serif;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;  
+}
+
+caption, table, th, td {
+    border: 1px solid black;
+}
+
+caption {
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+tr:first-of-type {
+    font-family: 'Heebo', sans-serif;
+    width: 85%;
+    background-color: #d8e3e7;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #686d76;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+td p {
+    margin: 0;
+}
+td {
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 1px 3px #394867;
+    font-size: 35px;
+    padding-top: 15px;
+
+}
+
+img {
+    padding: 0;
+}
+
+table {
+    color: #394867;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    width: 20%;
+}
+
+ol {
+    margin: 0;
+    padding-left: 35%;
+}
+
+li {
+    text-align: left;
+}
+
+footer {
+    padding-bottom: 3px;
+    text-align: center;
+}

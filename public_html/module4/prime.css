@@ -1,0 +1,74 @@
+/*  Taj-Hakeem Ryles
+    Prime Properites
+    INFO 1311 WA
+    olberding
+    April 7, 2021
+*/
+body {
+    background-color: #036;
+    margin: 0px;
+    min-width: 800px;
+}
+
+header {
+    height: 120px;
+    background-image: url(primelogo.gif);
+    background-repeat: no-repeat;
+    background-color: #BACBE0;
+    padding-top: 1px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #036;
+    text-shadow: 2px 1px 2px #6c757d;
+    margin-left: 90px;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+nav ul {
+    color: white;
+}
+
+nav ul :visited {
+    color: #BACBE0;
+}
+
+main {
+    padding: 20px 50px;
+    background-color: white;
+}
+
+img {
+    float: right;
+    border-radius: 9px;
+    box-shadow: 2px 1px 2px #6c757d;
+}
+
+footer {
+    font-size: .5em;
+    text-align: center;
+    border-top: 1px solid #036;
+    background-color: #BACBE0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.company {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.copyright {
+    font-style: italic;
+}

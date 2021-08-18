@@ -1,0 +1,50 @@
+/*   Taj-Hakeem Ryles
+     Assignment2.css
+     INFO 1311 WA
+     olberding
+     March 22, 2021
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A5A6A1;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 900px;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #403A30;
+    padding-left: 10px;
+}
+ main {
+     padding-left: 10px;
+ }
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #8C7C68;
+    text-shadow: 1px 1px 2px #A5A6A1;
+}
+
+h2 {
+    color: #8C7C68;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #403A30;
+}
+
+footer {
+    color: #736555;
+    text-align: right;
+    font-size: .8em;
+    font-style: italic;
+}

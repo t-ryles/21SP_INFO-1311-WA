@@ -1,0 +1,59 @@
+/*
+    Taj-Hakeem Ryles
+    allAboutMe.html
+    INFO 1311 WA
+    olberding
+    March 31, 2021
+*/
+
+/* The background image would span the full page, this solved the problem*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #666;
+    background: linear-gradient(#FFF, #666);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#container {
+    width: 960px;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 5px 5px #1e1e1e;
+    border-radius: 15px;
+}
+
+header {
+    background-image: url('/module3/background.jpg');
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    padding-left: 15%;
+    color: hsla(0, 100%, 0%, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.photo {
+    float: right;
+}
+
+footer {
+    text-align: right;
+    border-top: 1px solid black;
+    font-size: .8em;
+    font-style: italic;
+}

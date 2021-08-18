@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nobile&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Survey</title>
+<!-- Taj-Hakeem Ryles
+     musicSurvey.html
+     INFO 1311 WA
+     olberding
+     April 28, 2021
+-->
+</head>
+<body>
+
+<h1>Music Survey</h1>
+
+<p id="descript">This form is used to gather information about the type of music you listen to and the ways in which you purchase it. Any information that is submitted will be logged and stored for our records. A receipt will be presented for your records, if you choose to print it.</p>
+
+    <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp" id="formMain">
+    <input name="title" type="hidden"
+    value="Thank you for taking the time to complete the form.  Below is the information that you submitted.  Please print this page and keep it for your records.">
+
+        <fieldset id="contactInfo">
+            <legend>Contact Information</legend>
+            <label for="firstName">First Name:*</label>
+            <br>
+            <input type="text" id="firstName" name="First Name" required>
+            <br><br>
+
+            <label for="lastName">Last Name:*</label>
+            <br>
+            <input type="text" id="lastName" name="Last Name" required>
+            <br><br>
+
+            <label for="email">Email:*</label>
+            <br>
+            <input type="text" id="email" name="Email" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset id="musicGenre">
+            <legend>Select Your Favorite Geners of Music:</legend>
+            <div>
+                <input type="checkbox" name="Pop" id="pop">
+                <label for="pop">Pop</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Classical" id="classical">
+                <label for="classical">Classical</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Rock" id="rock">
+                <label for="rock">Rock</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Folk" id="folk">
+                <label for="folk">Folk</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Rap" id="rap">
+                <label for="rap">Rap</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Other" id="other">
+                <label for="other">Other</label>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset id="purchaseFerquency">
+            <legend>Select how often you purchase Music:</legend>
+            <div><input type="radio" value="weekly" id="weekly">
+                <label for="weekly">Weekly</label>
+            </div>
+            <div><input type="radio" value="monthly" id="monthly">
+                <label for="monthly">Monthly</label>
+            </div>
+            <div><input type="radio" value="aFewAYear" id="aFewAYear">
+                <label for="aFewAYear">A few CDs each year</label>
+            </div>
+            <div><input type="radio" value="never" id="never">
+                <label for="never">Never purchase</label>
+            </div>
+        </fieldset>
+        <br>
+        <div id="formBottom">
+            <label for="paymentMethod">Select the method you use most often to purchase Music:</label>
+            <br>
+            <select name="Payment Method" id="paymentMethod">
+                <option hidden disabled selected value>&nbsp;</option>
+                <option value="online">Online</option>
+                <option value="retail">Retail Store</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+
+            <label for="userInput">What role does music play in your life?</label>
+            <br>
+            <textarea name="Music answer" id="userInput" cols="60"></textarea>
+
+            <br><br>
+
+            <button class="buttom" id="submit">Submit</button>
+            &nbsp;
+            &nbsp;
+            <button class="buttom" id="clearForm">Clear Form</button>
+
+            <!-- <input type="hidden" name="recipient" value="LOlberding@mccneb.edu"> -->
+            <input type="hidden" name="Music Survey Feedback" value="INFO1311 Form Assignment">
+            <input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~teryles/module7/musicSurvey.html">
+            <input name="return_link_title" type="hidden" value="Home">
+            <input name="font_face" type="hidden" value="Arial,Helvetica">
+            <input name="font_size" type="hidden" value="6">
+            <input name="bgcolor" type="hidden" value="#FFFF99">
+            <input type="hidden" name="text_color" value="#000000">
+        </div>
+    </form>
+
+<footer>
+    <p>* Fields are required.</p>
+</footer>
+
+</body>
+</html>

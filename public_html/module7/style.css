@@ -1,0 +1,54 @@
+ /* Taj-Hakeem Ryles
+     style.css
+     INFO 1311 WA
+     olberding
+     April 28, 2021
+*/
+
+body {
+    background-color: #dec9e9;
+    font-family: 'Nobile', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 2px #b9faf8;
+    text-align: center;
+    color: #7251b5;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+#descript {
+    font-size: 1em;
+    text-align: center;
+    color: #5a189a;
+}
+
+#formMain {
+    background-color:  #b185db;
+    border: 3px solid #b382d5;
+    border-radius: 10px;
+}
+
+
+fieldset {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #b9faf8;
+}
+
+#formBottom {
+    margin-left: 10px;
+}
+
+
+.buttom {
+    margin-bottom: 10px;
+    background-color: #b9faf8;
+}
